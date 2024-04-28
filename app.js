@@ -387,7 +387,7 @@ bot.action("take_wallet", async (ctx) => {
     aboutToTakeWalletAddress = true;
     ctx.telegram.sendMessage(
       ctx.chat.id,
-      "Great! Now send me your wallet address."
+      "Great! Now send me your TON wallet address."
     );
   });
 });
@@ -418,7 +418,7 @@ bot.on("message", async (ctx) => {
       const isWalletValid = validateWalletAddress(walletAddress);
 
       if (!isWalletValid) {
-        await ctx.reply("Invalid wallet address.");
+        await ctx.reply("Invalid address.\n Make sure it's a TON wallet address.");
         // Prompt user again for wallet address recursively
         await promptForWalletAddress(ctx);
       } else {
