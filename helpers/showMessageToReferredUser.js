@@ -14,8 +14,8 @@ Keep sharing keep earning! Free TFT 😍\n\nComplete the tasks below:`;
       inline_keyboard: [
         [
           {
-            text: "Task 1: Follow Ton Identity on 𝕏",
-            url: "https://x.com/ton_identity",
+            text: "Task 1: Follow Ton Fam Token on 𝕏",
+            url: "https://x.com/ton_fam_token",
           },
         ],
         [
